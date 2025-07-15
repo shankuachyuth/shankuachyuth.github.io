@@ -10,10 +10,11 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
+  <div id="preloader"></div>
 
   <header>
     <div class="container">
-      <h1>Achyuth Narayan</h1>
+      <h1 id="typed-text">Achyuth Narayan</h1>
       <p class="subtitle">Tech Enthusiast · Project Manager · Business Strategist</p>
       <button id="theme-toggle">🌙</button>
       <nav>
@@ -29,64 +30,64 @@
   </header>
 
   <main class="container">
-
-    <section id="about" class="card">
+    <section id="about" class="card fade-in">
       <h2>About Me</h2>
       <p>
         I'm Achyuth Narayan, a technology enthusiast with a strong foundation in SAP systems,
         data analysis, and business strategy. My passion lies in bridging the gap between
-        technical solutions and real-world impact. I'm currently preparing for a Master's in
+        technical solutions and real-world impact, currently preparing for a Master's in
         Information Systems at the University of Cincinnati.
       </p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="fade-in">
       <h2>Projects</h2>
       <div class="project-list">
         <div class="project-card">
           <h3>SAP Optimization</h3>
-          <p>Improved system performance by 30% through SAP implementation strategies.</p>
+          <p>Improved system performance and process efficiency by implementing SAP solutions in enterprise environments.</p>
         </div>
         <div class="project-card">
-          <h3>Excel BI Dashboard</h3>
-          <p>Developed a data-driven dashboard for visualizing sales performance.</p>
-          <a href="https://github.com/shankuachyuth/excel-sales-dashboard" target="_blank">View →</a>
+          <h3>BI Dashboard in Excel</h3>
+          <p>Created an Excel-based dashboard to visualize sales trends and regional performance, enhancing business insights.</p>
+          <a href="https://github.com/shankuachyuth/excel-sales-dashboard" target="_blank">View Project →</a>
         </div>
         <div class="project-card">
-          <h3>Retail Insights (Power BI)</h3>
-          <p>Analyzed customer behavior and trends using Power BI for retail analytics.</p>
+          <h3>Power BI Retail Insights</h3>
+          <p>Developed a Power BI dashboard for retail business analytics to track customer behavior and inventory.</p>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="card">
+    <section id="skills" class="card fade-in">
       <h2>Skills</h2>
       <ul>
-        <li>Excel (Advanced Formulas, Dashboards)</li>
-        <li>Power BI, SQL, Python</li>
-        <li>SAP S/4HANA</li>
-        <li>Project Management</li>
-        <li>Data Visualization</li>
+        <li>Excel (Advanced Formulas, Dashboards, Pivot Tables)</li>
+        <li>Power BI, SQL, Python (Pandas, NumPy)</li>
+        <li>SAP S/4HANA Implementation</li>
+        <li>Project Management & Business Strategy</li>
+        <li>Data Visualization & Reporting</li>
       </ul>
     </section>
 
-    <section id="resume" class="card">
+    <section id="resume" class="card fade-in">
       <h2>Resume</h2>
-      <p>Download my resume for a complete overview.</p>
+      <p>Download my resume for a detailed overview of my education, experience, and skills.</p>
       <a href="resume.pdf" download class="resume-button">Download Resume</a>
     </section>
 
-    <section id="contact" class="card">
+    <section id="contact" class="card fade-in">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:Shankuachyuth13@gmail.com">Shankuachyuth13@gmail.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/narayan-shanku/" target="_blank">linkedin.com/in/narayan-shanku</a></p>
     </section>
-
   </main>
 
   <footer>
-    <p>&copy; 2025 Achyuth Narayan · Built with patience and purpose 🌙</p>
+    <p>&copy; 2025 Achyuth Narayan · Built with stillness and strategy 🌙</p>
   </footer>
+
+  <button id="topBtn">↑</button>
 
   <script src="script.js"></script>
 </body>
