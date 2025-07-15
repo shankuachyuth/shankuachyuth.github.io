@@ -1,50 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achyuth Narayan | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achyuth Narayan | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
-    <header>
-        <h1>Achyuth Narayan</h1>
-        <p>Tech Enthusiast | Project Manager | Business Strategist</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Passionate about blending technology and business to drive innovation. Experienced in SAP implementation and aspiring to specialize in business intelligence.</p>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
+
+  <header>
+    <div class="container">
+      <h1>Achyuth Narayan</h1>
+      <p class="subtitle">Tech Enthusiast · Project Manager · Business Strategist</p>
+      <button id="theme-toggle">🌙</button>
+      <nav>
         <ul>
-            <li><strong>Project 1:</strong> SAP System Optimization - Enhanced efficiency by 30%.</li>
-            <li><strong>Project 2:</strong> Business Intelligence Dashboard - Developed analytics for better decision-making.</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        I'm Achyuth Narayan, a technology enthusiast with a strong foundation in SAP systems,
+        data analysis, and business strategy. My passion lies in bridging the gap between
+        technical solutions and real-world impact. I'm currently preparing for a Master's in
+        Information Systems at the University of Cincinnati.
+      </p>
     </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:Shankuachyuth13@gmail.com">Shankuachyuth13@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/narayan-shanku/">linkedin.com/in/narayan-shanku</a></p>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <h3>SAP Optimization</h3>
+          <p>Improved system performance by 30% through SAP implementation strategies.</p>
+        </div>
+        <div class="project-card">
+          <h3>Excel BI Dashboard</h3>
+          <p>Developed a data-driven dashboard for visualizing sales performance.</p>
+          <a href="https://github.com/shankuachyuth/excel-sales-dashboard" target="_blank">View →</a>
+        </div>
+        <div class="project-card">
+          <h3>Retail Insights (Power BI)</h3>
+          <p>Analyzed customer behavior and trends using Power BI for retail analytics.</p>
+        </div>
+      </div>
     </section>
-    
-    <footer>
-        <p>&copy; 2025 Achyuth Narayan | All Rights Reserved</p>
-    </footer>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Excel (Advanced Formulas, Dashboards)</li>
+        <li>Power BI, SQL, Python</li>
+        <li>SAP S/4HANA</li>
+        <li>Project Management</li>
+        <li>Data Visualization</li>
+      </ul>
+    </section>
+
+    <section id="resume" class="card">
+      <h2>Resume</h2>
+      <p>Download my resume for a complete overview.</p>
+      <a href="resume.pdf" download class="resume-button">Download Resume</a>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:Shankuachyuth13@gmail.com">Shankuachyuth13@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/narayan-shanku/" target="_blank">linkedin.com/in/narayan-shanku</a></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Achyuth Narayan · Built with patience and purpose 🌙</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
